@@ -21,20 +21,20 @@ Install ansible 2.0.2.0
 
 HOWTO
 
-git clone git@git@github.com:sholaj/bp.git
-cd bp/my-bp-project
-vagrant status
-vagrant up bp
-vagrant ssh bp 
-export DOCKER_HOST="tcp://192,168.50.4:2375"
-ansible-container build
-ansible-container run
+- git clone git@git@github.com:sholaj/bp.git
+- cd bp/my-bp-project
+- vagrant status
+- vagrant up bp
+- vagrant ssh bp 
+- export DOCKER_HOST="tcp://192,168.50.4:2375"
+- ansible-container build
+- ansible-container run
 
 
 
 
 TODO
-ansible-container build failing with synatx error..Time constraints
-script container build and run process
+- ansible-container build failing with synatx error..Time constraints
+- script container build and run process
 
 
